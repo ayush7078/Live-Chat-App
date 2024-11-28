@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
-import io from "socket.io-client";
 import { Alert, Input, Button } from "antd";
 import moment from "moment";
+import socket from "../utils/socket";
 
-const socket = io("http://localhost:4000");
 
 const ChatBot = () => {
   const [messages, setMessages] = useState([]);
