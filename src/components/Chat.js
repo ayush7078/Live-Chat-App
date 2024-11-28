@@ -142,7 +142,7 @@ const ChatBot = () => {
                         style={{
                           backgroundColor: msg.sender === userName ? "#007bff" : "#e1e1e1",
                           color: msg.sender === userName ? "#fff" : "#000",
-                          display: "flow",
+                          display: "inline-table",
                           padding: "10px",
                             borderRadius: "12px",
                           borderTopLeftRadius: msg.sender === userName ? "12px" : "0px",
