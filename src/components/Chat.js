@@ -116,7 +116,7 @@ const ChatBot = () => {
                 </div>
 
                 {groupedMessages[date].map((msg, idx) => (
-                  <div key={idx} style={{ display: "flex", alignItems: "center", margin: "7px 0" }}>
+                  <div key={idx} style={{ display: "flex", alignItems: "center", margin: "5px 0", marginTop : "10px" }}>
                     {msg.sender !== userName && (
                       <div
                         style={{
